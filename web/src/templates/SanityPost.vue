@@ -25,12 +25,10 @@
         <post-tags :post="$page.post" v-if="$page.post" />
       </div>
     </div>
-
-    <div class="post-comments">
-      <!-- Add comment widgets here -->
-    </div>
-
     <author-card class="post-author" />
+    <div class="post-comments">
+      <vue-disqus shortname="injured-nurses-blog" :identifier="$page.post.title"></vue-disqus>
+    </div>
   </Layout>
 </template>
 
