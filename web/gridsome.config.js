@@ -31,6 +31,12 @@ module.exports = {
         overlayDrafts: !isProd,
         watchMode: !isProd
       }
+    },
+    {
+      use: '@gridsome/plugin-google-analytics',
+      options: {
+        id: 'UA-164568522-1'
+      }
     }
   ]
 };
