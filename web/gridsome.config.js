@@ -15,7 +15,7 @@ const isProd = process.env.NODE_ENV === 'production';
 module.exports = {
   siteName: 'Injured Nurses',
   siteDescription:
-    'A simple, hackable & minimalistic starter for Gridsome that uses structured content from Sanity.io.',
+    'Sharing and support for injured nurses',
 
   templates: {
     SanityPost: '/:slug__current'
