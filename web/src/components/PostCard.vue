@@ -12,6 +12,10 @@
       <h2 class="post-card__title" v-html="post.title" />
       <block-content :blocks="post._rawExcerpt" />
 
+      <p>
+        <g-link :to="post.slug.current">Click to Read More</g-link>
+      </p>
+
       <post-meta class="post-card__meta" :post="post" />
       <post-tags class="post-card__tags" :post="post" />
 
