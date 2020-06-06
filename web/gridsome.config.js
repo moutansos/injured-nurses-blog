@@ -37,6 +37,14 @@ module.exports = {
       options: {
         id: 'UA-164568522-1'
       }
+    },
+    {
+      use: 'gridsome-plugin-sentry',
+      options: {
+        dsn: 'https://cfdd7cf5d41341f8bd6533bad9f4f0cc@o403890.ingest.sentry.io/5267023',
+        attachProps: true, // defaults to true
+        logErrors: process.env.NODE_ENV === 'development' // defaults to false, see below for further info
+      }
     }
   ]
 };

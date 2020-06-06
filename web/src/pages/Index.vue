@@ -65,8 +65,8 @@
 </page-query>
 
 <script>
-import AuthorCard from '~/components/AuthorCard'
-import PostCard from '~/components/PostCard'
+import AuthorCard from '~/components/AuthorCard';
+import PostCard from '~/components/PostCard';
 
 export default {
   components: {
@@ -75,6 +75,9 @@ export default {
   },
   metaInfo: {
     title: 'Home'
+  },
+  mounted() {
+    throw 'testing Sentry connection';
   }
-}
+};
 </script>

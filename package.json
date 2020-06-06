@@ -16,5 +16,8 @@
   "devDependencies": {
     "@sanity/cli": "^0.144.0",
     "lerna": "^3.20.2"
+  },
+  "dependencies": {
+    "gridsome-plugin-sentry": "^1.1.0"
   }
 }
