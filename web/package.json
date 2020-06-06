@@ -9,7 +9,9 @@
   "dependencies": {
     "@gridsome/plugin-google-analytics": "^0.1.0",
     "@sanity/image-url": "^0.140.18",
+    "axios": "^0.19.2",
     "dotenv": "^8.2.0",
+    "email-validator": "^2.0.4",
     "gridsome": "^0.7.14",
     "gridsome-source-sanity": "^1.0.5",
     "sanity-blocks-vue-component": "^0.1.0",
