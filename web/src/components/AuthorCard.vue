@@ -19,6 +19,7 @@
 
     <div class="content-box">
       <BlockContent class="author__bio" :blocks="$static.settings.author._rawBio" v-if="true || $static.settings.author._rawBio" />
+      <g-link to="/subscribe">Subscribe to be notified of new posts!</g-link>
     </div>
   </div>
 </template>
