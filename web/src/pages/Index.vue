@@ -75,9 +75,6 @@ export default {
   },
   metaInfo: {
     title: 'Home'
-  },
-  mounted() {
-    throw 'testing Sentry connection';
   }
 };
 </script>
