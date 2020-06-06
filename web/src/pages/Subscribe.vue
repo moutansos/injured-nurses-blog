@@ -16,7 +16,7 @@
         <p>{{ statusMessage }}</p>
       </div>
       <div v-else-if="state == 'loading'">
-        Subscribing. Please wait...
+        Subscribing. Please wait, this may take up to 2 minutes...
       </div>
     </Card>
   </Layout>

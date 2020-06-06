@@ -5,7 +5,7 @@
       <p>Unsubscribe from notification emails for new posts</p>
       <button :disabled="!email" @click.prevent="unsubscribe">Yes please Unsubscribe me!</button>
       <div v-if="state == 'loading'">
-        <p>Unsubscribing. Please Wait...</p>
+        <p>Unsubscribing. Please wait, this may take up to 2 minutes...</p>
       </div>
       <div v-else-if="state == 'loaded'">
         <p>Unsubscribed.</p>
