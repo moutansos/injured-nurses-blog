@@ -9,7 +9,7 @@
   "dependencies": {
     "@gridsome/plugin-google-analytics": "^0.1.0",
     "@sanity/image-url": "^0.140.18",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "axios-retry": "^3.1.8",
     "dotenv": "^8.2.0",
     "email-validator": "^2.0.4",
